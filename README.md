@@ -8,7 +8,8 @@ Install the dependencies to compile profanity:
 
     $ brew install automake autoconf autoconf-archive libtool pkg-config terminal-notifier
 
-Clone the profanity repo and build it with:
+If you don't want notification support, omit `terminal-notifier` above. Now
+clone the profanity repo and build it with:
 
     $ git clone https://github.com/boothj5/profanity
     $ cd profanity
